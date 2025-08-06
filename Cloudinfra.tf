@@ -10,12 +10,3 @@ resource "aws_instance" "ccitinstance" {
     Project = "ccit-dev"
   }
 }
-
-resource "aws_instance" "ccitinstance1" {
-  ami           = "ami-06232d181481c0e00"
-  instance_type = "t3.micro"
-
-  tags = {
-    Name    = "ccit instance1"
-  }
-}
