@@ -9,3 +9,7 @@ resource "aws_iam_user" "ccitdev1user"{
 resource "aws_iam_user" "ccitdev2user"{
   name = "ccitdev2"
 }
+
+resource "aws_iam_user" "ccitdev3user"{
+  name = "ccitdev3"
+}
